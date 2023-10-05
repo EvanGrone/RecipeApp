@@ -8,10 +8,9 @@ People sometimes find themselves unable to find anything to eat when they open t
 Our project is simple, it will allow users to log in and it will enable them to input ingredients they have around the house. It will then take  those ingredients and show them what recipes involve them so they have a better idea about what to cook.
 ### 3. Architectural Design
 3.1 Class Diagram
-
 3.2 Sequence Diagram
-![RecipeApp.png](https://github.com/EvanGrone/RecipeApp/blob/main/Recipe%20App.png)
 ### 4. User Guide / Implementation
+![RecipeApp.png](https://github.com/EvanGrone/RecipeApp/blob/main/Recipe%20App.png)
 ### 5. Future Scope
 ### 6. Conclusion
 ### 7. Walkthrough
