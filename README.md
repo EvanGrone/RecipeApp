@@ -9,8 +9,10 @@ Our project is simple, it will allow users to log in and it will enable them to 
 ### 3. Architectural Design
 
 3.1 Class Diagram
+![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/RecipeClass.png)
 
 3.2 Sequence Diagram
+![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/RecipeSequence.png)
 ### 4. User Guide / Implementation
 ![UserInterface](https://github.com/EvanGrone/RecipeApp/blob/main/download.jpg)
 ### 5. Future Scope
