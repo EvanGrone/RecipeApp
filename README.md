@@ -3,5 +3,5 @@
 
 [Firebase Project Link](https://console.firebase.google.com/u/0/project/recipeapp-98710/overview?utm_source=welcome&utm_medium=email&utm_campaign=welcome_2021_CTA_A)
 
-[LucidChart UML](https://lucid.app/publicSegments/view/4ed014ed-bc58-4b10-a4f4-d109c2f63858)
+[LucidChart UML](https://lucid.app/documents/view/ba315d6e-627e-457f-954c-d4cb63500bae)
 
