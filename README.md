@@ -1,5 +1,5 @@
 # **Recipe Finder**
-## Created by: Gabe Baksa, Evan Gronewald & Caleb Kip
+## Created by: Gabe Baksa, Evan Gronewald & Caleb Kipp
 ### 1. Abstract
 Our project is simple, it will allow users to login and it will allow them to input ingriedents they have around the house. It will then take  those ingredients and show them what recipes involve them so they have a better idea about what to cook.
 ### 2. Introduction
