@@ -10,6 +10,7 @@ Our project is simple, it will allow users to log in and it will enable them to 
 3.1 Class Diagram
 
 3.2 Sequence Diagram
+![recipe](C:\Users\evanc\Downloads\RecipeApp)
 ### 4. User Guide / Implementation
 ### 5. Future Scope
 ### 6. Conclusion
