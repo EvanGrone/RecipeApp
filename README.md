@@ -1,9 +1,16 @@
-# RecipeApp
+# **Recipe Finder**
+## Created by: Gabe Baksa, Evan Gronewald & Caleb Kip
+### 1. Abstract
 Our project is simple, it will allow users to login and it will allow them to input ingriedents they have around the house. It will then take  those ingredients and show them what recipes involve them so they have a better idea about what to cook.
+### 2. Introduction
+### 3. Architectural Design
+3.1 Class Diagram
 
-
-
-[Markdown Documentation](https://jbt.github.io/markdown-editor/#PY3LasMwFET3+ooBQxemqOTRFrprncaE7BpK19fSxRaRJedKSunf1zU0yznMzKlQ1x9s3MTYu2BZ6lpVFRphymzR/bygpY7xRudE93i/UkArMfA3eYs7NOS5w9FN86rCSuO1S1nI5CWvNQ4hS7TFZBfDwjZzR8zgMptchDx2nFwf1Eav0HhKCTtHvdCoZrTGiS+Fg+Eb/fvYanwmFrTFWcYDDuPkeeSQ6aZ51NiXWcA4mTjxwp40mhiML+m/9azxRf6cB4mlH5T6BQ==)
+3.2 Sequence Diagram
+### 4. User Guide / Implementation
+### 5. Future Scope
+### 6. Conclusion
+### 7. Walkthrough
 
 [Firebase Project Link](https://console.firebase.google.com/u/0/project/recipeapp-98710/overview?utm_source=welcome&utm_medium=email&utm_campaign=welcome_2021_CTA_A)
 
