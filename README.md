@@ -3,9 +3,10 @@
 ___
 ### 1. Abstract
 ___
-People sometimes find themselves unable to find anything to eat when they open their pantry or fridge. Although the ingredients are the proper way to utilize them and form a whole from parts, it can be challenging. Finding a way to utilize many different ingredients to make a dish is not everyone's forte. Rather than eating an unhealthy meal, or spending money on fast food or takeout, our app will help bridge the gap between simple ingredients, and a recipe.
+This abstract presents a mobile application designed to revolutionize cooking experiences by efficiently matching user-input ingredients to a vast recipe database. The app matches input to pair available ingredients with suitable recipes. The system prioritizes user convenience and engagement by offering personalized recipe recommendations based on the ingredients at hand. Through an intuitive and user-friendly interface, this mobile app streamlines the process of meal planning, reducing food waste, and enabling users to create diverse and delicious dishes effortlessly. The app's innovation lies in its ability to adapt to user preferences and available ingredients while presenting an accessible and enjoyable culinary exploration for users of all skill levels. This mobile application stands at the forefront of simplifying cooking experiences, promoting sustainable practices, and enhancing culinary creativity.
+___
 ### 2. Introduction
-Our project is simple, it will allow users to log in and it will enable them to input ingredients they have around the house. It will then take  those ingredients and show them what recipes involve them so they have a better idea about what to cook.
+
 ### 3. Architectural Design
 ![Architecture.jpg](https://github.com/EvanGrone/RecipeApp/blob/main/UpdatedArchitecture.jpg)
 
