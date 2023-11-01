@@ -16,7 +16,7 @@ In an era where culinary exploration and meal planning intersect with technology
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
 
 #### 3.3 Sequence Diagram
-![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png))
+![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png)
 
 #### 3.4 Activity Diagram
 ![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Collaboration.png)
