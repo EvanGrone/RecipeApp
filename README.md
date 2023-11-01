@@ -9,16 +9,16 @@ In an era where culinary exploration and meal planning intersect with technology
 ### 3. Architectural Design
 ![Architecture.jpg](https://github.com/EvanGrone/RecipeApp/blob/main/UpdatedArchitecture.jpg)
 
-3.1 Class Diagram
+# 3.1 Class Diagram
 ![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Class.png)
 
-3.2 Use Case Diagram
+# 3.2 Use Case Diagram
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
 
-3.3 Sequence Diagram
+# 3.3 Sequence Diagram
 ![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png))
 
-3.4 Activity Diagram
+# 3.4 Activity Diagram
 ![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Collaboration.png)
 
 ### 4. User Guide / Implementation
