@@ -1,0 +1,7 @@
+from RecipeAppUI import *
+
+if __name__ == '__main__':
+    app = wx.App(False)
+    frame = IngredientsApp()
+    frame.Show()
+    app.MainLoop()
