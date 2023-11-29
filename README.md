@@ -2,7 +2,7 @@
 Software Engineering - CIS 350
 ```
 <p align="center">
-  <img src="Images/recipe_book.jpg" width="400" title="RECIPE BOOK">
+  <img src="Images/circle_recipe_book.jpg" width="400" title="RECIPE BOOK">
 </p>
 
 # **Recipe Finder**
