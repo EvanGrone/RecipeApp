@@ -39,7 +39,7 @@ This section contains the class diagram for the recipe app, showing the boundary
 ![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png)
 
 ### 3.4 Activity Diagram
-![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Recipe%20Activity%20Diagram.png)
+![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Activity%20Diagram.png)
 
 ## 4. User Guide / Implementation
 ## 4.1 Client
