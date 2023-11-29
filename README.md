@@ -33,9 +33,11 @@ This section contains the class diagram for the recipe app, showing the boundary
 ![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Class%20Diagram.png)
 
 ### 3.2 Use Case Diagram
+The use case diagram for our RecipeFinder App shows the main purpose of our app, which is that once given ingredients by the user, our app accesses a database of recipes and outputs a single recipe for the user.
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
 
 ### 3.3 Sequence Diagram
+This section shows the sequence diagram for our RecipeFinder App. Initially, a user interface is loaded and the user is asked to select ingredients. Once the ingredients are selected, the app checks for a recipe in the database to match the ingredients. If there is one, the recipe is outputted, otherwise the user is asked to try again.
 ![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png)
 
 ### 3.4 Activity Diagram
