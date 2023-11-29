@@ -21,7 +21,12 @@ In an era where culinary exploration and meal planning intersect with technology
 ## 3. Architectural Design
 Our App works with a client-server architecture. The client is given an interactive iOS-based user interface for sorting through ingredients they have and finding recipes that match those ingredients. The server-side processing will be held in Firebase. The client requests the server with their list of ingredients and the server will respond with a recipe that matches those ingredients.
 
-![Architecture.jpg](https://github.com/EvanGrone/RecipeApp/blob/main/UpdatedArchitecture.jpg)
+<p align="center">
+  <img src="PythonUI/UpdatedArchitecture.PNG" width="500" title="architecture">
+  <br>
+  <br>
+  Figure 1: Client Server Architecture of RecipeFinder App
+</p>
 
 ### 3.1 Class Diagram
 ![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Class.png)
