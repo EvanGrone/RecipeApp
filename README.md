@@ -31,12 +31,6 @@ Our App works with a client-server architecture. The client is given an interact
 ### 3.1 Class Diagram
 This section contains the class diagram for the recipe app, showing the boundary class "Recipe" that the user interacts with, the enity class "Database" that stores the recipe data, and the control class "Finder" that finds the recipe and another boundary class "UserIngredients that allows the user to edit the ingredients that they have.
 ![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Class%20Diagram.png)
-<p align="center">
-  <img src="Images/Recipe Class Diagram.png" width="500" title="Class">
-  <br>
-  <br>
-  Figure 2: Class Diagram for RecipeFinder App
-</p>
 
 ### 3.2 Use Case Diagram
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
@@ -48,9 +42,13 @@ This section contains the class diagram for the recipe app, showing the boundary
 ![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Collaboration.png)
 
 ## 4. User Guide / Implementation
+## 4.1 Client
+## 4.2 Server
 ![UserInterface](https://github.com/EvanGrone/RecipeApp/blob/main/download.jpg)
 ## 5. Future Scope
+There are lots of ways in which the RecipeFinder App could be further developed if more time was available. Using a larger set of data would be useful for users because it would give more recipe options available to match with. Also, adding machine learning to the app would be beneficial. If a like and dislike button were added, then the system could learn what recipes the user seems to enjoy or even what is popular and take that into account when outputting a recipe.  
 ## 6. Conclusion
+Overall, our RecipeFinder App would be very beneficial for many reasons. It saves its users time deciding by instantly outputting a possible option of something to make. Our app reduces food waste by giving users ideas of what to use their ingredients for. These are just a few reasons why our RecipeApp would be useful, but there are still many ways in which our app could be improved to even further benefit its users.
 ## 7. Walkthrough
 
 [Firebase Project Link](https://console.firebase.google.com/u/0/project/recipeapp-98710/overview?utm_source=welcome&utm_medium=email&utm_campaign=welcome_2021_CTA_A)
