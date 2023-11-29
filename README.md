@@ -45,6 +45,9 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 
 ## 4. User Guide / Implementation
 ## 4.1 Client
+![UI Dropdown.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UIdropdown.png)
+![UI Matching.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UImatching.png)
+![UI SC.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UIsc.png)
 ## 4.2 Server
 ![UserInterface](https://github.com/EvanGrone/RecipeApp/blob/main/download.jpg)
 ## 5. Future Scope
