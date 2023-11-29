@@ -30,7 +30,7 @@ Our App works with a client-server architecture. The client is given an interact
 
 ### 3.1 Class Diagram
 This section contains the class diagram for the recipe app, showing the boundary class "Recipe" that the user interacts with, the enity class "Database" that stores the recipe data, and the control class "Finder" that finds the recipe and another boundary class "UserIngredients that allows the user to edit the ingredients that they have.
-![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Class.png)
+![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Class%20Diagram.png)
 <p align="center">
   <img src="Images/Recipe Class Diagram.png" width="500" title="Class">
   <br>
