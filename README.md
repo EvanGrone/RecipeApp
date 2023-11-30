@@ -9,9 +9,9 @@ Software Engineering - CIS 350
 ## Created by: 
 ---
 ### Group 1:
-### Gabe Baksa
-### Evan Gronewald 
-### Caleb Kipp
+#### Gabe Baksa
+#### Evan Gronewald 
+#### Caleb Kipp
 ---
 ___
 ## 1. Abstract
