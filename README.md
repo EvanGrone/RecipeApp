@@ -8,6 +8,7 @@ Software Engineering - CIS 350
 # **Recipe Finder**
 ## Created by: 
 ---
+## Group 1:
 ### Gabe Baksa
 ### Evan Gronewald 
 ### Caleb Kipp
