@@ -44,13 +44,13 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 ![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Activity%20Diagram.png)
 
 ## 4. User Guide / Implementation
-## 4.1 Client
+### 4.1 Client
 ![UI Dropdown.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UIdropdown.png)
 ![UI Matching.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UImatching.png)
 ![UI SC.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/UIsc.png)
 
 Above we have our different UIs. Above you can see the drop down to choose an ingredient with the output of the recipe. Other than the drop down, there are only two clickable buttons, as to keep the app simplistic. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "Go!" button which starts the process in outputting what recipes you can make.
-## 4.2 Server
+### 4.2 Server
 ![UserInterface](https://github.com/EvanGrone/RecipeApp/blob/main/download.jpg)
 ## 5. Future Scope
 There are lots of ways in which the RecipeFinder App could be further developed if more time was available. Using a larger set of data would be useful for users because it would give more recipe options available to match with. Also, adding machine learning to the app would be beneficial. If a like and dislike button were added, then the system could learn what recipes the user seems to enjoy or even what is popular and take that into account when outputting a recipe.  
