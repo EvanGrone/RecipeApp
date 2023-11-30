@@ -5,7 +5,7 @@ Software Engineering - CIS 350
   <img src="Images/recipe_book.jpg" width="400" title="RECIPE BOOK">
 </p>
 
-# **Recipe Finder**
+# **Recipe Coordinator**
 ## Created by: 
 ---
 ### Group 1:
