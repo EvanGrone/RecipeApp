@@ -30,17 +30,17 @@ Our App works with a client-server architecture. The client is given an interact
 </p>
 
 ### 3.1 Class Diagram
-This section contains the class diagram for the recipe app, showing the boundary class "Recipe" that the user interacts with, the enity class "Database" that stores the recipe data, and the control class "Finder" that finds the recipe and another boundary class "UserIngredients that allows the user to edit the ingredients that they have.
 ![Class.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Class%20Diagram.png)
 
+This section contains the class diagram for the recipe app, showing the boundary class "Recipe" that the user interacts with, the enity class "Database" that stores the recipe data, and the control class "Finder" that finds the recipe and another boundary class "UserIngredients that allows the user to edit the ingredients that they have.
 ### 3.2 Use Case Diagram
-The use case diagram for our RecipeFinder App shows the main purpose of our app, which is that once given ingredients by the user, our app accesses a database of recipes and outputs a single recipe for the user.
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
 
+The use case diagram for our RecipeFinder App shows the main purpose of our app, which is that once given ingredients by the user, our app accesses a database of recipes and outputs a single recipe for the user.
 ### 3.3 Sequence Diagram
-This section shows the sequence diagram for our RecipeFinder App. Initially, a user interface is loaded and the user is asked to select ingredients. Once the ingredients are selected, the app checks for a recipe in the database to match the ingredients. If there is one, the recipe is outputted, otherwise the user is asked to try again.
 ![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png)
 
+This section shows the sequence diagram for our RecipeFinder App. Initially, a user interface is loaded and the user is asked to select ingredients. Once the ingredients are selected, the app checks for a recipe in the database to match the ingredients. If there is one, the recipe is outputted, otherwise the user is asked to try again.
 ### 3.4 Activity Diagram
 ![Activity Diagram.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Recipe%20Activity%20Diagram.png)
 
