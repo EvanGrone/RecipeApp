@@ -34,6 +34,7 @@ Our App works with a client-server architecture. The client is given an interact
 This section contains the class diagram for the recipe app, showing the boundary class "Recipe" that the user interacts with, the enity class "Database" that stores the recipe data, and the control class "Finder" that finds the recipe and another boundary class "UserIngredients that allows the user to edit the ingredients that they have.
 ### 3.2 Use Case Diagram
 ![Case.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Use%20Case.png)
+
 The use case diagram for our RecipeFinder App shows the main purpose of our app, which is that once given ingredients by the user, our app accesses a database of recipes and outputs a single recipe for the user.
 ### 3.3 Sequence Diagram
 ![Sequence.png](https://github.com/EvanGrone/RecipeApp/blob/main/Check%202%20Sequence.png)
