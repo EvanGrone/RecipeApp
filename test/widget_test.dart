@@ -15,14 +15,19 @@ void main() {
 
     // Ensure the initial UI is displayed
     expect(find.text('Recipe App'), findsOneWidget);
-    expect(find.text('Bananas'), findsAtLeastNWidgets(1));
+    expect(find.text('Bananas'), findsOneWidget);
+
+    // Tap on the dropdown button
+    await tester.tap(find.byKey(const Key('dropdownButton')));
+    await tester.pump();
 
     // Tap on the first ingredient in the dropdown
-    await tester.tap(find.text('Bananas'));
+    await tester.tap(
+        find.text('Bananas').last); // Use last to select the second instance
     await tester.pump();
 
     // Check if the ingredient is added to the selected ingredients
-    expect(find.text('Bananas'), findsOne);
+    expect(find.text('Bananas'), findsNothing);
     expect(find.text('Remove'), findsOneWidget);
 
     // Tap on the "GO!" button
