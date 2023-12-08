@@ -27,7 +27,7 @@ void main() {
     await tester.pump();
 
     // Check if the ingredient is added to the selected ingredients
-    expect(find.text('Bananas'), findsNothing);
+    expect(find.text('Bananas'), findsOneWidget);
     expect(find.text('Remove'), findsOneWidget);
 
     // Tap on the "GO!" button
