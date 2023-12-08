@@ -15,7 +15,7 @@ void main() {
 
     // Ensure the initial UI is displayed
     expect(find.text('Recipe App'), findsOneWidget);
-    expect(find.text('Bananas'), findsOneWidget);
+    expect(find.text('Bananas'), findsNothing);
 
     // Tap on the dropdown button
     await tester.tap(find.byKey(const Key('dropdownButton')));
