@@ -45,15 +45,15 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 ## 4. User Guide / Implementation
 ### 4.1 Client
 <p align="center">
-  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png" width="300" title="Phone(3)">
-  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png" width="300" title="Phone(2)">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png" width="300" title="Phone(3) style="margin-right: 20px;">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png" width="300" title="Phone(2) ">
   <br>
   <br>
   Figure 1: Caption for Phone(3) and Caption for Phone(2)
 </p>
 
 <p align="center">
-  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png" width="300" title="Phone(1)">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png" width="300" title="Phone(1) style="margin-right: 20px;">
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png" width="300" title="Phone(4)">
   <br>
   <br>
