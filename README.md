@@ -65,18 +65,6 @@ caption
 caption
 <br>
 <br>
-
-<p align="center">
-  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png" width="1000" title="Link_Example">
-  <br>
-  <br>
-  Figure 3: Caption for Link_Example
-</p>
-
-![Phone(3).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png) ![Phone(2).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png)
-caption
-![Phone(1).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png) ![Phone(4).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png)
-caption
 ![Link_Example.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png)
 
 Above we have our different UIs. Above you can see the drop down box to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are four interactable objects in the application other than the drop down box. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "Go!" button which starts the process in outputting what recipes you can make. Then there is the "OK" button which closes the list of links and allow you to find more recipes. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
