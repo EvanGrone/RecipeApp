@@ -51,4 +51,22 @@ void main() {
     // Verify if no ingredients are selected after removal.
     expect(find.byType(ListTile), findsOneWidget);
   });
+
+  testWidgets('Matching Recipes Dialog', (WidgetTester tester) async {
+    await tester.pumpWidget(MyApp());
+
+    // Tap on the GO! button.
+    await tester.tap(find.text('GO!'));
+    await tester.pumpAndSettle();
+
+    // Verify if the matching recipes dialog is displayed.
+    expect(find.text('Matching Recipes'), findsOneWidget);
+
+    // Tap on OK to close the dialog.
+    await tester.tap(find.text('OK'));
+    await tester.pumpAndSettle();
+
+    // Verify if the dialog is closed.
+    expect(find.text('Matching Recipes'), findsNothing);
+  });
 }
