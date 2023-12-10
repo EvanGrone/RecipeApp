@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+# flutter_github_workflow
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+=======
 ```
 Software Engineering - CIS 350
 ```
@@ -83,3 +101,4 @@ Overall, our RecipeFinder App would be very beneficial for many reasons. It save
 
 [Firebase Project Link](https://console.firebase.google.com/u/0/project/recipeapp-98710/overview?utm_source=welcome&utm_medium=email&utm_campaign=welcome_2021_CTA_A)
 
+>>>>>>> 19fd6e492714e884236e8fe2f76cc185a65ab630
