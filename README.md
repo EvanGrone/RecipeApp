@@ -51,6 +51,9 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
   <br>
   Figure 1: Caption for Phone(3) and Caption for Phone(2)
 </p>
+caption
+<br>
+<br>
 
 <p align="center">
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png" width="300" title="Phone(1) style="margin-right: 20px;">
@@ -59,6 +62,9 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
   <br>
   Figure 2: Caption for Phone(1) and Caption for Phone(4)
 </p>
+caption
+<br>
+<br>
 
 <p align="center">
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png" width="300" title="Link_Example">
