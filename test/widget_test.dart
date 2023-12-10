@@ -1,3 +1,4 @@
+// This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
 // utility in the flutter_test package. For example, you can send tap and scroll
@@ -8,29 +9,22 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_github_workflow/main.dart';
 
 void main() {
-  testWidgets('Widget builds', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('Widget builds and initial state', (WidgetTester tester) async {
+    await tester.pumpWidget(MyApp());
 
-    // Verify if the title is present in the app.
+    // Verify if the app title is present.
     expect(find.text('Recipe App'), findsOneWidget);
-  });
 
-  testWidgets('Ingredient selection', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    // Verify if the initial ingredient is present in the dropdown.
+    expect(find.text('Bananas'), findsOneWidget);
 
-    // Tap on the dropdown and select an ingredient.
-    await tester.tap(find.byType(DropdownButton<dynamic>));
-    await tester.pump();
-
-    // Verify if the selected ingredient is displayed.
+    // Verify if the Remove button is present.
     expect(find.text('Remove'), findsOneWidget);
 
-    // Tap on the Remove button and check if the ingredient is removed.
-    await tester.tap(find.text('Remove'));
-    await tester.pump();
+    // Verify if the GO! button is present.
+    expect(find.text('GO!'), findsOneWidget);
 
-    expect(find.text('Remove'), findsOneWidget);
+    // Verify if no ingredients are initially selected.
+    expect(find.byType(ListTile), findsNothing);
   });
 }

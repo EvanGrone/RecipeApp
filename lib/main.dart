@@ -1,12 +1,9 @@
 // ignore_for_file: unused_local_variable
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,12 +11,10 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   FirebaseDatabase database = FirebaseDatabase.instance;
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -38,59 +33,131 @@ class IngredientsApp extends StatefulWidget {
 }
 
 class _IngredientsAppState extends State<IngredientsApp> {
+  List<String> ingredients = [
+    'Bananas',
+    'Blueberries',
+    'Flour',
+    'Milk',
+    'Butter',
+    'Cinnamon',
+    'Vanilla Extract',
+    'Salt',
+    'Nutmeg',
+    'Baking Soda',
+    'Baking Powder',
+    'Eggs',
+    'Olive Oil',
+    'Carrots',
+    'Graham Crackers',
+    'Yeast',
+    'Brown Sugar',
+    'Powdered Sugar',
+    'Cream Cheese',
+    'Lemons',
+    'Maple Syrup',
+    'Applesauce',
+    'Vegetable Oil',
+    'Peanut Butter',
+    'Water',
+    'Chocolate'
+  ];
   List<String> selectedIngredients = [];
-  List<String> ingredients = [];
 
-  Map<String, dynamic> recipes = {};
-
-  Future getRecipes() async {
-    var url =
-        Uri.parse("https://recipeapp-98710-default-rtdb.firebaseio.com/.json");
-
-    try {
-      http.Response response = await http.get(url);
-
-      if (response.statusCode == 200) {
-        // Successful response
-        var results = jsonDecode(response.body);
-        //print('results $results');
-        setState(() {
-          recipes = results;
-        });
-
-        for (var entry in recipes.entries) {
-          //dynamic key = entry.key;
-          var value = entry.value;
-          List<String> ingrdtList = value.split(', ');
-          for (String ingrdt in ingrdtList) {
-            if (!ingredients.contains(ingrdt)) {
-              if (kDebugMode) {
-                print(ingrdt);
-              }
-              ingredients.add(ingrdt);
-            }
-          }
-        }
-        ingredients.sort();
-      } else {
-        // Handle the error, for example, print the status code
-        if (kDebugMode) {
-          print('Error: ${response.statusCode}');
-        }
-      }
-    } catch (error) {
-      // Handle network or other errors
-      if (kDebugMode) {
-        print('Error fetching data: $error');
-      }
-    }
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    getRecipes();
-  }
+  Map<String, List<String>> recipes = {
+    'Banana Bread': [
+      'Bananas',
+      'Flour',
+      'Vegetable Oil',
+      'Eggs',
+      'Baking Soda',
+      'Sugar',
+      'Vanilla Extract',
+      'Cinnamon',
+      'Nutmeg',
+      'Salt'
+    ],
+    'Blueberry Muffins': [
+      'Flour',
+      'Baking Powder',
+      'Eggs',
+      'Olive Oil',
+      'Milk',
+      'Sugar',
+      'Vanilla Extract',
+      'Cinnamon',
+      'Blueberries'
+    ],
+    'Brownies': ['Baking Powder', 'Butter', 'Eggs', 'Water', 'Chocolate'],
+    'Cake': ['Flour', 'Eggs', 'Sugar', 'Milk', 'Vanilla Extract'],
+    'Carrot Cake': [
+      'Carrots',
+      'Flour',
+      'Baking Soda',
+      'Eggs',
+      'Maple Syrup',
+      'Applesauce',
+      'Milk',
+      'Vegetable Oil',
+      'Cinnamon',
+      'Vanilla Extract',
+      'Nutmeg',
+      'Salt'
+    ],
+    'Cheesecake': [
+      'Graham Crackers',
+      'Cinnamon',
+      'Butter',
+      'Eggs',
+      'Cream Cheese',
+      'Sugar',
+      'Sour Cream',
+      'Lemon',
+      'Vanilla Extract'
+    ],
+    'Cinnamon Rolls': [
+      'Flour',
+      'Sugar',
+      'Salt',
+      'Milk',
+      'Butter',
+      'Egg',
+      'Cinnamon',
+      'Brown Sugar',
+      'Yeast'
+    ],
+    'Cookies': ['Eggs', 'Brown Sugar', 'Sugar', 'Flour', 'Butter'],
+    'Oatmeal cookies': [
+      'Flour',
+      'Brown Sugar',
+      'Baking Powder',
+      'Baking Soda',
+      'Salt',
+      'Butter',
+      'Eggs',
+      'Raisins',
+      'Vanilla Extract'
+    ],
+    'Peanut Butter Cookies': [
+      'Peanut Butter',
+      'Flour',
+      'Baking Soda',
+      'Butter',
+      'Brown Sugar',
+      'Eggs',
+      'Vanilla Extract',
+      'Salt'
+    ],
+    'Sugar Cookies': [
+      'Flour',
+      'Baking Powder',
+      'Salt',
+      'Butter',
+      'Salt',
+      'Eggs',
+      'Milk',
+      'Powdered Sugar'
+    ],
+  };
 
   void _findMatchingRecipes() {
     List<String> matchingRecipes = [];
@@ -101,6 +168,7 @@ class _IngredientsAppState extends State<IngredientsApp> {
         matchingRecipes.add(recipe);
       }
     });
+
     if (matchingRecipes.isNotEmpty) {
       showDialog(
         context: context,
@@ -152,7 +220,7 @@ class _IngredientsAppState extends State<IngredientsApp> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            DropdownButton<dynamic>(
+            DropdownButton<String>(
               value: ingredients.isNotEmpty ? ingredients[0] : null,
               onChanged: (value) {
                 setState(() {
