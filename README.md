@@ -67,7 +67,7 @@ caption
 <br>
 
 <p align="center">
-  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png" width="300" title="Link_Example">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png" width="1000" title="Link_Example">
   <br>
   <br>
   Figure 3: Caption for Link_Example
