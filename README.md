@@ -50,11 +50,11 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 ![Phone(4).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png)
 ![Link_Example.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png)
 
-Above we have our different UIs. Above you can see the drop down to choose an ingredient with the output of the recipe. Other than the drop down, there are only two clickable buttons, as to keep the app simplistic. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "Go!" button which starts the process in outputting what recipes you can make.
+Above we have our different UIs. Above you can see the drop down to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are three clickable buttons in the app. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "Go!" button which starts the process in outputting what recipes you can make. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
 ### 4.2 Server
 ![Final_Database.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Final_DataBase.png)
 
-Above you can see our real time database using firebase. It uses a dictionary format to make pulling values simplistic. The databse can be accessed from any computer using the app from a centralized location.
+Above you can see our real time database using firebase. It uses a dictionary format to make pulling values simplistic. The database can be accessed from any computer using the app from a centralized location. It also displays hyperlinks which is used in the application.
 ## 5. Future Scope
 There are lots of ways in which the RecipeFinder App could be further developed if more time was available. Using a larger set of data would be useful for users because it would give more recipe options available to match with. Also, adding machine learning to the app would be beneficial. If a like and dislike button were added, then the system could learn what recipes the user seems to enjoy or even what is popular and take that into account when outputting a recipe.  
 ## 6. Conclusion
