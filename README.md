@@ -44,6 +44,29 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 
 ## 4. User Guide / Implementation
 ### 4.1 Client
+<p align="center">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png" width="300" title="Phone(3)">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png" width="300" title="Phone(2)">
+  <br>
+  <br>
+  Figure 1: Caption for Phone(3) and Caption for Phone(2)
+</p>
+
+<p align="center">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png" width="300" title="Phone(1)">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png" width="300" title="Phone(4)">
+  <br>
+  <br>
+  Figure 2: Caption for Phone(1) and Caption for Phone(4)
+</p>
+
+<p align="center">
+  <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png" width="300" title="Link_Example">
+  <br>
+  <br>
+  Figure 3: Caption for Link_Example
+</p>
+
 ![Phone(3).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png) ![Phone(2).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png)
 caption
 ![Phone(1).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(1).png) ![Phone(4).png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png)
