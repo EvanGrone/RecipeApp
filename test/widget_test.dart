@@ -85,4 +85,28 @@ void main() {
     expect(find.text('Remove'), findsOneWidget);
     expect(find.text('Butter'), findsOneWidget);
   });
+
+  testWidgets('Match Butter to Recipe', (WidgetTester tester) async {
+    await tester.pumpWidget(MyApp());
+
+    // Tap on the dropdown and select Butter.
+    await tester.tap(find.byType(DropdownButton<String>));
+    await tester.pump();
+    await tester.tap(find.text('Butter'));
+    await tester.pump();
+
+    // Tap on the GO! button.
+    await tester.tap(find.text('GO!'));
+    await tester.pumpAndSettle();
+
+    // Verify if the matching recipes dialog is displayed.
+    expect(find.text('Matching Recipes'), findsOneWidget);
+
+    // Tap on OK to close the dialog.
+    await tester.tap(find.text('OK'));
+    await tester.pumpAndSettle();
+
+    // Verify if the dialog is closed.
+    expect(find.text('Matching Recipes'), findsNothing);
+  });
 }
