@@ -222,7 +222,6 @@ class _IngredientsAppState extends State<IngredientsApp> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             DropdownButton<String>(
-              key: const Key('dropdownButton'),
               value: ingredients.isNotEmpty ? ingredients[0] : null,
               onChanged: (value) {
                 setState(() {
