@@ -54,7 +54,7 @@ Above we have our different UIs. Above you can see the drop down box to choose a
 ### 4.2 Server
 ![Final_Database.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Final_DataBase.png)
 
-Above you can see our real time database using firebase. It uses a dictionary format to make pulling values simplistic. The database can be accessed from any computer using the app from a centralized location. It also displays hyperlinks which is used in the application.
+Above you can see our real time database using firebase. It uses a dictionary format to make pulling values simplistic. The database can be accessed from any computer using the app from a centralized location. It also includes hyperlinks which is used in the application.
 ## 5. Future Scope
 There are lots of ways in which the RecipeFinder App could be further developed if more time was available. Using a larger set of data would be useful for users because it would give more recipe options available to match with. Also, adding machine learning to the app would be beneficial. If a like and dislike button were added, then the system could learn what recipes the user seems to enjoy or even what is popular and take that into account when outputting a recipe.  
 ## 6. Conclusion
