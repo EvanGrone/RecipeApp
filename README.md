@@ -44,14 +44,17 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 
 ## 4. User Guide / Implementation
 ### 4.1 Client
+Below we have our different UIs. Above you can see the drop down box to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are four interactable objects in the application other than the drop down box. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "GO!" button which starts the process in outputting what recipes you can make. Then there is the "OK" button which closes the list of links and allow you to find more recipes. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
+<br>
+<br>
 <p align="center">
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(3).png" width="400" title="Phone(3)" style="margin-right: 40px;">
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(2).png" width="400" title="Phone(2) ">
   <br>
   <br>
-  Figure 1: Caption for Phone(3) and Caption for Phone(2)
+  Figure 2: Home Screen
 </p>
-caption
+The above figures shows the home screen where the user can select the ingredients they have from the dropdown.
 <br>
 <br>
 
@@ -60,15 +63,14 @@ caption
   <img src="https://github.com/EvanGrone/RecipeApp/blob/main/Images/Phone(4).png" width="400" title="Phone(4)">
   <br>
   <br>
-  Figure 2: Caption for Phone(1) and Caption for Phone(4)
+  Figure 3: When "GO!" is pressed
 </p>
-caption
+The above figures show what happens when the "GO!" button is pressed. If there is a valid recipe that matches the users selected inredients, then the name of the recipe it will be shown on the screen as a hyperlink. When clicked, it takes the user to a website with the recipe on it.
 <br>
 <br>
 
 ![Link_Example.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png)
 
-Above we have our different UIs. Above you can see the drop down box to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are four interactable objects in the application other than the drop down box. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "Go!" button which starts the process in outputting what recipes you can make. Then there is the "OK" button which closes the list of links and allow you to find more recipes. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
 ### 4.2 Server
 ![Final_Database.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Final_DataBase.png)
 
