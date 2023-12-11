@@ -44,7 +44,7 @@ This section shows the sequence diagram for our RecipeFinder App. Initially, a u
 
 ## 4. User Guide / Implementation
 ### 4.1 Client
-Below we have our different UIs. Above you can see the drop down box to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are four interactable objects in the application other than the drop down box. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "GO!" button which starts the process in outputting what recipes you can make. Then there is the "OK" button which closes the list of links and allow you to find more recipes. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
+Below we have our different UIs. You can see the drop down box to choose an ingredient with the output of the recipe. You can continue to choose ingredients until the drop down is empty. There are four interactable objects in the application other than the drop down box. There is a "remove" button, which as it sounds removes the ingredient from the list. Then there is the "GO!" button which starts the process in outputting what recipes you can make. Then there is the "OK" button which closes the list of links and allow you to find more recipes. The other button included it the hyperlinks which link you to an outputted recipe as shown above.
 <br>
 <br>
 <p align="center">
@@ -70,6 +70,7 @@ The above figures show what happens when the "GO!" button is pressed. If there i
 <br>
 
 ![Link_Example.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Link_Example.png)
+Above you can see an example of a website that will pop up when a hyperlink is clicked.
 
 ### 4.2 Server
 ![Final_Database.png](https://github.com/EvanGrone/RecipeApp/blob/main/Images/Final_DataBase.png)
