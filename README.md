@@ -83,5 +83,6 @@ Overall, our RecipeFinder App would be very beneficial for many reasons. It save
 ## 7. Walkthrough
 
 [Firebase Project Link](https://console.firebase.google.com/u/0/project/recipeapp-98710/overview?utm_source=welcome&utm_medium=email&utm_campaign=welcome_2021_CTA_A)
+<br>
 [Recipe App Walkthrough](https://vimeo.com/893202971?share=copy)
 
